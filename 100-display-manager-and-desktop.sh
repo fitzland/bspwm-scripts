@@ -2,13 +2,7 @@
 #set -e
 ###############################################################################
 # Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -48,14 +42,9 @@ echo "Installation of the core software"
 
 list=(
 sddm
-#arcolinux-wallpapers-git
 thunar
 thunar-archive-plugin
 thunar-volman
-#xterm
-#xfce4-terminal
-#arcolinux-xfce-git
-#arcolinux-local-xfce4-git
 bspwm
 sxhkd
 dmenu
@@ -63,13 +52,8 @@ xdo
 feh
 sutils-git
 xtitle-git
-#arcolinux-bspwm-git
-#arcolinux-bspwm-dconf-git
-#arcolinux-config-bspwm-git
 awesome-terminal-fonts
 polybar
-#arcolinux-polybar-git
-#arcolinux-logout-git
 )
 
 count=0
@@ -81,13 +65,6 @@ for name in "${list[@]}" ; do
 done
 
 ###############################################################################
-
-tput setaf 6;echo "################################################################"
-echo "Copying all files and folders from /etc/skel to ~"
-echo "################################################################"
-echo;tput sgr0
-cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
-cp -arf /etc/skel/. ~
 
 tput setaf 5;echo "################################################################"
 echo "Enabling sddm as display manager"

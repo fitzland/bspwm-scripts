@@ -2,13 +2,7 @@
 #set -e
 ###############################################################################
 # Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -58,7 +52,6 @@ list=(
 catfish
 keepassxc
 screenkey
-smartmontools
 )
 
 count=0
@@ -73,7 +66,6 @@ done
 func_category Development
 
 list=(
-#code
 meld
 )
 
@@ -140,7 +132,7 @@ done
 func_category Office
 
 list=(
-#ghostwriter
+ghostwriter
 #gramps
 xreader
 zim
@@ -161,10 +153,7 @@ list=(
 dconf-editor
 gnome-disk-utility
 gparted
-arc-gtk-theme
 adapta-gtk-theme
-#bibata-cursor-theme
-#materia-gtk-theme
 papirus-icon-theme
 paper-icon-theme
 )
