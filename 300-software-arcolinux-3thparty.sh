@@ -55,7 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-mintstick-git
+#mintstick-git
 )
 
 count=0
