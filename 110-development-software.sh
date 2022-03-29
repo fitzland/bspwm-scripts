@@ -41,8 +41,10 @@ echo "Installation of the development packages"
 ###############################################################################
 
 list=(
-flameshot
+atom
 meld
+micro
+ranger
 scrot
 )
 

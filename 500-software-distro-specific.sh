@@ -55,34 +55,32 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
+alacritty
 arandr
 dmenu
-#feh
+dunst
+feh
+flameshot
 #gmrun
 gtk-engine-murrine
 i3blocks
 imagemagick
+jq
 lxappearance
-#lxrandr
+lxsession
+micro
+net-tools
 nitrogen
 picom
 playerctl
 polybar
-#python-pywal
+ranger
 rofi
 ttf-font-awesome
 volumeicon
 w3m
-#urxvt-resize-font-git
-#xfce4-appfinder
-#xfce4-notifyd
-#xfce4-power-manager
-#xfce4-screenshooter
-#xfce4-settings
-#xfce4-screenshooter
-#xfce4-taskmanager
-#xfce4-terminal
-#hardcode-fixer-git
+wmname
+xsettingsd
 )
 
 count=0

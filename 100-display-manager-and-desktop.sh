@@ -50,10 +50,9 @@ sxhkd
 dmenu
 xdo
 feh
-sutils-git
-xtitle-git
 awesome-terminal-fonts
 polybar
+xorg-xrandr
 )
 
 count=0

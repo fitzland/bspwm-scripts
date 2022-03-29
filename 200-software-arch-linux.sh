@@ -66,6 +66,7 @@ done
 func_category Development
 
 list=(
+atom
 meld
 )
 
@@ -134,6 +135,8 @@ func_category Office
 list=(
 ghostwriter
 #gramps
+gnucash
+libreoffice-fresh
 xreader
 zim
 )
@@ -156,6 +159,9 @@ gparted
 adapta-gtk-theme
 papirus-icon-theme
 paper-icon-theme
+zsh
+zsh-completions
+zsh-syntax-highlighting
 )
 
 count=0
