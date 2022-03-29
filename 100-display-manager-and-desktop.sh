@@ -78,7 +78,7 @@ echo "################################################################"
 echo;tput sgr0
 
 sudo mkdir -p /usr/share/backgrounds
-sudo cp $HOME/images/wallpapers/greeter* /usr/share/backgrounds/
+sudo cp $HOME/images/wallpapers/system/* /usr/share/backgrounds/
 
 tput setaf 11;
 echo "################################################################"

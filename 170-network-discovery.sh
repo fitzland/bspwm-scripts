@@ -48,6 +48,8 @@ echo "Installation of network software"
 
 list=(
 avahi
+jq
+net-tools
 nss-mdns
 gvfs-smb
 )
