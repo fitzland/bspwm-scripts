@@ -154,6 +154,7 @@ func_category System
 
 list=(
 dconf-editor
+expac
 gnome-disk-utility
 gparted
 adapta-gtk-theme
