@@ -66,7 +66,6 @@ done
 func_category Development
 
 list=(
-atom
 meld
 )
 

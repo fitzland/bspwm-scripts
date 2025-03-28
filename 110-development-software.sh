@@ -41,9 +41,7 @@ echo "Installation of the development packages"
 ###############################################################################
 
 list=(
-atom
 meld
-micro
 ranger
 scrot
 )
